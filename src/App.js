@@ -1,6 +1,6 @@
-import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
-import Routes from './Routes/index'
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes/index';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Routes />
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
