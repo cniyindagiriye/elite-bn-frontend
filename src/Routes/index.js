@@ -6,7 +6,7 @@ import Counter from '../containers/Counter/Counter';
 function index() {
   return (
     <Switch>
-      <Route exact path="/" component={Counter} />
+      <Route exact path="/counter" component={Counter} />
       <Route exact path="/" component={Home} />
     </Switch>
   );
