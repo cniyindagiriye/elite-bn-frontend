@@ -7,8 +7,7 @@ on:
     branches: [ develop, ch-setup-gh-ci ]
      
 jobs:
-    test_push:
-    test_pull_request: 
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
