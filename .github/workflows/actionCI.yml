@@ -1,4 +1,4 @@
-name: Action CI
+name: github Action CI
 on:
   push:
     branches: [ develop, ch-setup-gh-ci ]
