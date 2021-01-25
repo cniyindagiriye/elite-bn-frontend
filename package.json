@@ -4,8 +4,8 @@
   "description": "Making company travel and accommodation easy and convenient.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode none",
-    "build": "webpack --mode production",
+    "start":"webpack serve --mode none",
+    "build":"webpack --mode production",
     "dev": "webpack serve --mode development --open --hot",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix",
