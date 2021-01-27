@@ -5,10 +5,12 @@ import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import counterReducer from './reducers/counter';
 import resultReducer from './reducers/result';
+import authReducer from './reducers/auth';
 
 const rootReducer = combineReducers({
   ctr: counterReducer,
   res: resultReducer,
+  auth: authReducer,
 });
 const logger = () => (next) => (action) => {
   const result = next(action);

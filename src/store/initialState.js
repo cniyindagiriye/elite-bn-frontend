@@ -5,3 +5,10 @@ export const counterInitialState = {
 export const resultInitialState = {
   results: [],
 };
+
+export const authInitialState = {
+  token: null,
+  userId: null,
+  error: null,
+  loading: false,
+};
